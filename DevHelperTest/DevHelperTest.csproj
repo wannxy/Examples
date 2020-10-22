@@ -1,0 +1,14 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Reference Include="NDevHelper_V1">
+      <HintPath>..\..\NDevHelper\NDevHelper_V1\bin\Debug\netcoreapp3.1\NDevHelper_V1.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+
+</Project>
