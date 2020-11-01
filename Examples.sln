@@ -21,6 +21,8 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FetchAllDetail", "FetchAllD
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Linux01", "Linux01\Linux01.vcxproj", "{5C17B638-6C19-4AE5-AAA5-7B6E440177EC}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MemberTree", "MemberTree\MemberTree.csproj", "{ED20EFF1-EF90-4391-ADD4-D4C6888352CA}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -217,6 +219,26 @@ Global
 		{5C17B638-6C19-4AE5-AAA5-7B6E440177EC}.Release|x86.ActiveCfg = Release|x86
 		{5C17B638-6C19-4AE5-AAA5-7B6E440177EC}.Release|x86.Build.0 = Release|x86
 		{5C17B638-6C19-4AE5-AAA5-7B6E440177EC}.Release|x86.Deploy.0 = Release|x86
+		{ED20EFF1-EF90-4391-ADD4-D4C6888352CA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{ED20EFF1-EF90-4391-ADD4-D4C6888352CA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{ED20EFF1-EF90-4391-ADD4-D4C6888352CA}.Debug|ARM.ActiveCfg = Debug|Any CPU
+		{ED20EFF1-EF90-4391-ADD4-D4C6888352CA}.Debug|ARM.Build.0 = Debug|Any CPU
+		{ED20EFF1-EF90-4391-ADD4-D4C6888352CA}.Debug|ARM64.ActiveCfg = Debug|Any CPU
+		{ED20EFF1-EF90-4391-ADD4-D4C6888352CA}.Debug|ARM64.Build.0 = Debug|Any CPU
+		{ED20EFF1-EF90-4391-ADD4-D4C6888352CA}.Debug|x64.ActiveCfg = Debug|Any CPU
+		{ED20EFF1-EF90-4391-ADD4-D4C6888352CA}.Debug|x64.Build.0 = Debug|Any CPU
+		{ED20EFF1-EF90-4391-ADD4-D4C6888352CA}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{ED20EFF1-EF90-4391-ADD4-D4C6888352CA}.Debug|x86.Build.0 = Debug|Any CPU
+		{ED20EFF1-EF90-4391-ADD4-D4C6888352CA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{ED20EFF1-EF90-4391-ADD4-D4C6888352CA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{ED20EFF1-EF90-4391-ADD4-D4C6888352CA}.Release|ARM.ActiveCfg = Release|Any CPU
+		{ED20EFF1-EF90-4391-ADD4-D4C6888352CA}.Release|ARM.Build.0 = Release|Any CPU
+		{ED20EFF1-EF90-4391-ADD4-D4C6888352CA}.Release|ARM64.ActiveCfg = Release|Any CPU
+		{ED20EFF1-EF90-4391-ADD4-D4C6888352CA}.Release|ARM64.Build.0 = Release|Any CPU
+		{ED20EFF1-EF90-4391-ADD4-D4C6888352CA}.Release|x64.ActiveCfg = Release|Any CPU
+		{ED20EFF1-EF90-4391-ADD4-D4C6888352CA}.Release|x64.Build.0 = Release|Any CPU
+		{ED20EFF1-EF90-4391-ADD4-D4C6888352CA}.Release|x86.ActiveCfg = Release|Any CPU
+		{ED20EFF1-EF90-4391-ADD4-D4C6888352CA}.Release|x86.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
