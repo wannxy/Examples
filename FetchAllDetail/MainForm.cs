@@ -36,8 +36,8 @@ namespace FetchAllDetail
                     {
                         for (int i = 0; i < ps.Length; i++)
                         {
-                            LogP(string.Format("账号: {0}/{1}", i, ps.Length));
-                            _Fetch(ps[i], tb_jsession.Text.Trim(), false);
+                            LogP(string.Format("账号: {0}/{1}", i + 1, ps.Length));
+                            _Fetch(ps[i], tb_jsession.Text.Trim(), true);
                         }
 
                     }

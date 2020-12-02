@@ -65,23 +65,6 @@ namespace MemberTree.Tree
             return null;
         }
 
-        public void FindList(string[] phones)
-        {
-            int counter = 0;
-            foreach (var phone in phones)
-            {
-                if (FindPhoneInNode(phone) != null)
-                {
-                    counter++;
-                }
-            }
-            XLog.I("", "{0}-{1}", this, counter);
-            foreach (var item in Children.Values)
-            {
-                item.FindList(phones);
-            }
-        }
-
         public override bool Equals(object obj)
         {
             return obj is Node node &&

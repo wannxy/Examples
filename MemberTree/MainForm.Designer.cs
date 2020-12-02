@@ -32,6 +32,7 @@
             this.tb_jsessionid = new System.Windows.Forms.TextBox();
             this.tb_logI = new System.Windows.Forms.TextBox();
             this.tb_phones = new System.Windows.Forms.TextBox();
+            this.button1 = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // btn_query
@@ -64,18 +65,29 @@
             // 
             // tb_phones
             // 
-            this.tb_phones.Location = new System.Drawing.Point(2, 64);
+            this.tb_phones.Location = new System.Drawing.Point(2, 143);
             this.tb_phones.Multiline = true;
             this.tb_phones.Name = "tb_phones";
             this.tb_phones.ScrollBars = System.Windows.Forms.ScrollBars.Both;
-            this.tb_phones.Size = new System.Drawing.Size(493, 182);
+            this.tb_phones.Size = new System.Drawing.Size(493, 103);
             this.tb_phones.TabIndex = 3;
+            // 
+            // button1
+            // 
+            this.button1.Location = new System.Drawing.Point(21, 46);
+            this.button1.Name = "button1";
+            this.button1.Size = new System.Drawing.Size(75, 23);
+            this.button1.TabIndex = 4;
+            this.button1.Text = "btn_q";
+            this.button1.UseVisualStyleBackColor = true;
+            this.button1.Click += new System.EventHandler(this.button1_Click);
             // 
             // MainForm
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(498, 450);
+            this.Controls.Add(this.button1);
             this.Controls.Add(this.tb_phones);
             this.Controls.Add(this.tb_logI);
             this.Controls.Add(this.tb_jsessionid);
@@ -96,6 +108,7 @@
         private System.Windows.Forms.TextBox tb_jsessionid;
         private System.Windows.Forms.TextBox tb_logI;
         private System.Windows.Forms.TextBox tb_phones;
+        private System.Windows.Forms.Button button1;
     }
 }
 

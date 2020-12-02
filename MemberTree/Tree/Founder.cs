@@ -43,9 +43,10 @@ namespace MemberTree.Tree
         }
 
         string destId = "";
-        public void FindPhones(string[] phones)
+        public void FindPhones(string phones)
         {
-            DicTree[destId].FindList(phones);
+            Node node = DicTree[destId].FindPhoneInNode(phones);
+            XLog.I("", "{0}", node);
         }
 
 

@@ -15,17 +15,15 @@ namespace MemberTree
             InitializeComponent();
             XLog.LogInfoCallBack = LogI;
         }
-
+        Founder founder;
         private void btn_query_Click(object sender, EventArgs e)
         {
             ClientManager.GetManager().AddClient(new Back2Client(tb_jsessionid.Text.Trim(), "Back2"), "Back2");
             Task.Factory.StartNew(() =>
             {
-                Founder founder = new Founder(MemberCache.Init());
+                founder = new Founder(MemberCache.Init());
                 founder.Found();
-                string[] phones = tb_phones.Text.Trim().Split("\r\n", StringSplitOptions.RemoveEmptyEntries);
-                XLog.I("", "统计数量！{0}", phones.Length);
-                founder.FindPhones(phones);
+ 
             });
         }
 
@@ -44,5 +42,10 @@ namespace MemberTree
             }
         }
         #endregion
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            founder.FindPhones(tb_phones.Text.Trim());
+        }
     }
 }
